@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/bitcommerce_bg.qm</file>
+        <file alias="ca">locale/bitcommerce_ca.qm</file>
+        <file alias="cs">locale/bitcommerce_cs.qm</file>
+        <file alias="da">locale/bitcommerce_da.qm</file>
+        <file alias="de">locale/bitcommerce_de.qm</file>
+        <file alias="en">locale/bitcommerce_en.qm</file>
+        <file alias="en_US">locale/bitcommerce_en_US.qm</file>
+        <file alias="es">locale/bitcommerce_es.qm</file>
+        <file alias="fi">locale/bitcommerce_fi.qm</file>
+        <file alias="fr_FR">locale/bitcommerce_fr_FR.qm</file>
+        <file alias="hr">locale/bitcommerce_hr.qm</file>
+        <file alias="it">locale/bitcommerce_it.qm</file>
+        <file alias="ja">locale/bitcommerce_ja.qm</file>
+        <file alias="ko_KR">locale/bitcommerce_ko_KR.qm</file>
+        <file alias="nl">locale/bitcommerce_nl.qm</file>
+        <file alias="pl">locale/bitcommerce_pl.qm</file>
+        <file alias="pt">locale/bitcommerce_pt.qm</file>
+        <file alias="pt_BR">locale/bitcommerce_pt_BR.qm</file>
+        <file alias="ro_RO">locale/bitcommerce_ro_RO.qm</file>
+        <file alias="ru">locale/bitcommerce_ru.qm</file>
+        <file alias="sk">locale/bitcommerce_sk.qm</file>
+        <file alias="sv">locale/bitcommerce_sv.qm</file>
+        <file alias="tr">locale/bitcommerce_tr.qm</file>
+        <file alias="uk">locale/bitcommerce_uk.qm</file>
+        <file alias="zh_CN">locale/bitcommerce_zh_CN.qm</file>
+        <file alias="zh_TW">locale/bitcommerce_zh_TW.qm</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=BitCommerce
+Comment=BitCommerce P2P Cryptocurrency
+Comment[fr]=BitCommerce, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=BitCommerce, eşten eşe kriptografik sanal para birimi
+Exec=bitcommerce-qt %u
+Terminal=false
+Type=Application
+Icon=bitcommerce128
+MimeType=x-scheme-handler/bitcommerce;
+Categories=Office;Finance;

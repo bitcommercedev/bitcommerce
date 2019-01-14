@@ -1,0 +1,26 @@
+[Unit]
+Description=BCOM's distributed currency daemon
+After=network.target
+
+[Service]
+User=bitcommerce
+Group=bitcommerce
+
+Type=forking
+PIDFile=/var/lib/bitcommerced/bitcommerced.pid
+
+ExecStart=/usr/bin/bitcommerced -daemon -pid=/var/lib/bitcommerced/bitcommerced.pid \
+          -conf=/etc/bitcommerce/bitcommerce.conf -datadir=/var/lib/bitcommerced
+
+ExecStop=-/usr/bin/bitcommerce-cli -conf=/etc/bitcommerce/bitcommerce.conf \
+         -datadir=/var/lib/bitcommerced stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
